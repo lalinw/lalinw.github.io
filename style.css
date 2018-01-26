@@ -27,6 +27,14 @@ body {
 	100% {background-color: #64B5F6;}
 }
 
+.title {
+	position: absolute;
+	text-align: left;
+	width: 100%;
+	margin-top: 5em;
+	margin-left: 15%;
+
+}
 
 .block {
 	position: absolute;
