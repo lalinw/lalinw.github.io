@@ -2,27 +2,65 @@
   "Projects" : [
     {
       "id": 1,
-      "title": "project A",
-      "img": "image source",
+      "title": "Watch Party Rescue",
+      "img": null,
       "lang": [
-        "java", 
-        "JavaScript"
+        "ReactJS", 
+        "HTML/CSS"
       ],
-      "github": "link",
-      "website": "link",
+      "github": "https://github.com/lalinw/WatchPartyRescue",
+      "website": "https://lalinw.github.io/WatchPartyRescue",
       "descr": "description"
   
     },
     {
       "id": 2,
-      "title": "project B",
-      "img": "image source",
+      "title": "What2Do",
+      "img": "https://github.com/sanasc/what2do/blob/main/app/misc/Intro.gif?raw=true",
       "lang": [
-        "java", 
-        "JavaScript"
+        "ReactJS", 
+        "HTML/CSS"
       ],
-      "github": "link",
-      "website": "link",
+      "github": "https://github.com/sanasc/what2do",
+      "website": "https://sanasc.github.io/what2do/",
+      "descr": "description"
+  
+    },
+    {
+      "id": 3,
+      "title": "Mercy Detector",
+      "img": null,
+      "lang": [
+        "C++"
+      ],
+      "github": "https://github.com/DaviidK/mercy-detector",
+      "website": null,
+      "descr": "description"
+  
+    },
+    {
+      "id": 4,
+      "title": "Dynamic Volume",
+      "img": null,
+      "lang": [
+        "Java", 
+        "Python"
+      ],
+      "github": "https://github.com/lalinw/dynamic-volume-iot",
+      "website": null,
+      "descr": "description"
+  
+    },
+    {
+      "id": 5,
+      "title": "Better Label",
+      "img": null,
+      "lang": [
+        "ReactJS", 
+        "HTML/CSS"
+      ],
+      "github": "https://github.com/lalinw/betterlabel",
+      "website": "https://lalinw.github.io/betterlabel/",
       "descr": "description"
   
     }

@@ -110,3 +110,7 @@ a:hover {
 div.span {
 	height: 5em;
 }
+
+#projects {
+	text-align: center;
+}

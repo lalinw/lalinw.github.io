@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+a.icon {
+  padding: 5px;
+}
+
+span.links {
+  padding: 0px 10px;
+}
+
+div.project-item {
+  display: inline-block;
+  padding: 2em;
+}
+
+img.project-item {
+  width: 20em;
+  height: 20em;
+  padding: 1em;
+}
