@@ -27,20 +27,14 @@ body {
 	100% {background-color: #64B5F6;}
 }
 
-.title {
-	position: absolute;
-	text-align: left;
-	width: 100%;
-	margin-top: 5em;
-	margin-left: 15%;
-
-}
-
 .block {
-	position: absolute;
-    margin: 10em 15% 5em 15%;
-	width: 70%;
+  margin: auto;
+	margin-top: 5em;
+	min-width: 50em;
+	max-width: 75em;
+	width: 50%;
 	height: auto;
+	border-radius: 50px 50px 0px 0px;
 }
 
 .bg-block {
@@ -49,23 +43,27 @@ body {
 }
 
 .text-block {
-	padding-top: 3em;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-	padding-bottom: 3em;
+	padding: 2em;
+}
+
+.section {
+	padding: 4em;
 }
 
 .mid-title {
 	align-content: center;
 	vertical-align: middle;
 	text-align: center;
-	/*margin-top: 20%;*/
 }
 
 .social-icons {
 	align-content: center;
 	vertical-align: middle;
 	text-align: center;
+}
+
+.flag-icon {
+	vertical-align: text-top;
 }
 
 h1, h2, h3, h4, h5 {
@@ -81,14 +79,25 @@ i {
 	padding-right: 10px;
 }
 
-a { 
+a.icon { 
 	color: inherit; 
 } 
 
+a.icon:hover{
+	color: rosybrown; 
+	background-color: #ffffff;
+	text-decoration: none;
+	cursor:pointer;  
+}
+
+a {
+	color: rgb(0, 185, 185);
+}
 
 a:hover {
-	color: inherit; 
-	text-decoration:none; 
+	color: rosybrown;
+	text-decoration: none;
+	background-color: lightgoldenrodyellow;
 	cursor:pointer;  
 }
 
@@ -98,4 +107,8 @@ a:hover {
 
 div.span {
 	height: 5em;
+}
+
+#projects {
+	text-align: center;
 }
