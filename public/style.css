@@ -29,11 +29,12 @@ body {
 
 .block {
   margin: auto;
-	margin-top: 10em;
+	margin-top: 5em;
 	min-width: 50em;
 	max-width: 75em;
 	width: 50%;
 	height: auto;
+	border-radius: 25px 25px 0px 0px;
 }
 
 .bg-block {
@@ -42,10 +43,11 @@ body {
 }
 
 .text-block {
-	padding-top: 3em;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-	padding-bottom: 3em;
+	padding: 2em;
+}
+
+.section {
+	padding: 4em;
 }
 
 .mid-title {
@@ -61,6 +63,11 @@ body {
 	text-align: center;
 }
 
+.flag-icon {
+	/* vertical-align: sub; */
+	vertical-align: text-top;
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Comfortaa', cursive;
 }
@@ -74,14 +81,25 @@ i {
 	padding-right: 10px;
 }
 
-a { 
+a.icon { 
 	color: inherit; 
 } 
 
+a.icon:hover{
+	color: rosybrown; 
+	background-color: #ffffff;
+	text-decoration: none;
+	cursor:pointer;  
+}
+
+a {
+	color: rgb(0, 185, 185);
+}
 
 a:hover {
-	color: inherit; 
-	text-decoration:none; 
+	color: rosybrown;
+	text-decoration: none;
+	background-color: lightgoldenrodyellow;
 	cursor:pointer;  
 }
 

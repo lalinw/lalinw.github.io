@@ -8,5 +8,6 @@ function App() {
     </div>
   );
 }
+// const data = require('./employees.json');
 
 export default App;
