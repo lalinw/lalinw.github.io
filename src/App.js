@@ -24,17 +24,24 @@ class App extends Component {
     return (
       <div class="project-item">
         {proj.img === null 
-          ? <img class="project-item" src={placeholderImage}/> 
-          : <img class="project-item" src={proj.img}/>}
+          ? <img class="project-img" src={placeholderImage}/> 
+          : <img class="project-img" src={proj.img}/>}
         
-        <h5>
+        <h4 style={{ textAlign: "center" }}>
           {proj.title} 
-          <span class="links">
-            {proj.github !== null && <a href={proj.github} class="icon"><GitHubIcon/></a>}
-            {proj.website !== null && <a href={proj.website} class="icon"><WebIcon/></a>}
-          </span>
-        </h5>
-        <p>{proj.lang.join(", ")}</p>
+        </h4>
+        <div class="links" style={{ textAlign: "center" }}>
+          {proj.github !== null && <a href={proj.github} class="icon"><GitHubIcon/></a>}
+          {proj.website !== null && <a href={proj.website} class="icon"><WebIcon/></a>}
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <p>
+            {proj.lang.join(", ")}
+            <br/>
+            {proj.integr !== null && "Integration(s): " + proj.integr.join(", ")}
+          </p>
+        </div>
+        <p>&emsp;{proj.descr}</p>
         
       </div>
     );

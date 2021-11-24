@@ -34,7 +34,7 @@ body {
 	max-width: 75em;
 	width: 50%;
 	height: auto;
-	border-radius: 25px 25px 0px 0px;
+	border-radius: 50px 50px 0px 0px;
 }
 
 .bg-block {
@@ -54,7 +54,6 @@ body {
 	align-content: center;
 	vertical-align: middle;
 	text-align: center;
-	/*margin-top: 20%;*/
 }
 
 .social-icons {
@@ -64,7 +63,6 @@ body {
 }
 
 .flag-icon {
-	/* vertical-align: sub; */
 	vertical-align: text-top;
 }
 

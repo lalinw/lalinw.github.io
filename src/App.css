@@ -46,12 +46,17 @@ span.links {
 }
 
 div.project-item {
-  display: inline-block;
-  padding: 2em;
+  width: 350px;
+  display: inline-block; 
+  margin: 2em;
+  vertical-align: top;
+  text-align: justify;
+  
 }
 
-img.project-item {
-  width: 20em;
-  height: 20em;
-  padding: 1em;
+img.project-img {
+  width: inherit;
+  object-fit: contain;
+  overflow: hidden;
+  padding-bottom: 1em;
 }
