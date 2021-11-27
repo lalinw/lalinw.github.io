@@ -82,11 +82,16 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Comfortaa', cursive;
+	/* font-family: 'Comfortaa', cursive; */
+  /* font-family: 'Noto Serif', serif; */
+  font-family: 'Quicksand', sans-serif;
 }
 
 p {
-	font-family: 'Prociono', serif;
+	/* font-family: 'Prociono', serif; */
+  /* font-family: 'Roboto Slab', serif; */
+  font-family: 'Noto Serif', serif;
+  /* font-family: 'Quicksand', sans-serif; */
 }
 
 i {
