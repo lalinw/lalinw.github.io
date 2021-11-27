@@ -47,7 +47,7 @@ body {
 	margin-top: 5em;
 	min-width: 50em;
 	max-width: 75em;
-	width: 50%;
+	width: 80%;
 	height: auto;
 	border-radius: 50px 50px 0px 0px;
 }
@@ -128,7 +128,7 @@ div.profile-img {
   float: left;
 }
 
-@media screen and (max-width: 1880px) {
+@media screen and (max-width: 1250px) {
   div.profile-img {
     float: none;
   }
