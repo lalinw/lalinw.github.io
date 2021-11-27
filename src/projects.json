@@ -20,7 +20,7 @@
     {
       "id": 2,
       "title": "What2Do",
-      "img": "https://github.com/sanasc/what2do/blob/main/app/misc/Intro.gif?raw=true",
+      "img": "/assets/what2do_intro.gif",
       "lang": [
         "ReactJS", 
         "HTML/CSS"
@@ -36,14 +36,14 @@
     {
       "id": 3,
       "title": "Mercy Detector",
-      "img": null,
+      "img": "/assets/mercy-detector-screenshot.png",
       "lang": [
         "C++"
       ],
       "integr": null,
       "github": "https://github.com/DaviidK/mercy-detector",
       "website": null,
-      "descr": "An OpenCV project that explored and utilizes various computer vision classification approaches to process gameplay images and detect specific player's avatar and action."
+      "descr": "An OpenCV project that explored and utilizes various computer vision classification approaches to process gameplay images and detect player's avatar and action."
   
     },
     {

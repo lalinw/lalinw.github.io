@@ -58,11 +58,11 @@ body {
 }
 
 .text-block {
-	padding: 2em;
+	padding: 4em;
 }
 
 .section {
-	padding: 4em;
+	padding: 2em 0em;
 }
 
 .mid-title {
@@ -116,8 +116,41 @@ a:hover {
 	cursor:pointer;  
 }
 
-.img-circle {
+img.profile-img {
+  border-radius: 50%;
+  width: 300px;
+  display: inline-block;
+  margin: 0em 3em 3em 0em;
+}
+
+div.profile-img {
+  text-align: center; 
+  float: left;
+}
+
+@media screen and (max-width: 1880px) {
+  div.profile-img {
+    float: none;
+  }
+
+  img.profile-img {
     border-radius: 50%;
+    width: 75%;
+    display: inline-block;
+    margin: 0em 0em 2em 0em;
+  }
+}
+
+.text-header {
+  padding: 1em 0em;
+}
+
+.summary-text {
+  text-align: left;
+}
+
+#summary {
+	text-align: center;
 }
 
 div.span {
@@ -127,3 +160,4 @@ div.span {
 #projects {
 	text-align: center;
 }
+

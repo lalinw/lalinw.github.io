@@ -22,17 +22,17 @@ class App extends Component {
 
   formatter = (proj) => {
     return (
-      <div class="project-item">
+      <div className="project-item" key={proj.id}>
         {proj.img === null 
-          ? <img class="project-img" src={placeholderImage}/> 
-          : <img class="project-img" src={proj.img}/>}
+          ? <img className="project-img" src={placeholderImage} alt=""/> 
+          : <img className="project-img" src={proj.img} alt=""/>}
         
         <h4 style={{ textAlign: "center" }}>
           {proj.title} 
         </h4>
-        <div class="links" style={{ textAlign: "center" }}>
-          {proj.github !== null && <a href={proj.github} class="icon"><GitHubIcon/></a>}
-          {proj.website !== null && <a href={proj.website} class="icon"><WebIcon/></a>}
+        <div className="links" style={{ textAlign: "center" }}>
+          {proj.github !== null && <a href={proj.github} className="icon"><GitHubIcon/></a>}
+          {proj.website !== null && <a href={proj.website} className="icon"><WebIcon/></a>}
         </div>
         <div style={{ textAlign: "center" }}>
           <p>
