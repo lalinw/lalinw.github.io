@@ -43,7 +43,7 @@
       "integr": null,
       "github": "https://github.com/DaviidK/mercy-detector",
       "website": null,
-      "descr": "An OpenCV project that utilizes various computer vision classification approaches to processes gameplay images and detect specific player's avatar and action."
+      "descr": "An OpenCV project that explored and utilizes various computer vision classification approaches to process gameplay images and detect specific player's avatar and action."
   
     },
     {
