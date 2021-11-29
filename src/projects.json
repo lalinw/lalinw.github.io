@@ -49,14 +49,15 @@
     {
       "id": 4,
       "title": "Dynamic Volume (IoT)",
-      "img": null,
+      "img": "/assets/dynamic-volume-iot.png",
       "lang": [
         "Java", 
         "Python"
       ],
       "integr": [
         "AWS IoT",
-        "AWS IAM"
+        "AWS Cognito",
+        "AWS S3"
       ],
       "github": "https://github.com/lalinw/dynamic-volume-iot",
       "website": null,
