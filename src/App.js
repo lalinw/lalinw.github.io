@@ -27,14 +27,14 @@ class App extends Component {
           ? <img className="project-img" src={placeholderImage} alt=""/> 
           : <img className="project-img" src={proj.img} alt=""/>}
         
-        <h4 style={{ textAlign: "center" }}>
+        <h4 className="project-name">
           {proj.title} 
         </h4>
-        <div className="links" style={{ textAlign: "center" }}>
+        <div className="links">
           {proj.github !== null && <a href={proj.github} className="icon"><GitHubIcon/></a>}
           {proj.website !== null && <a href={proj.website} className="icon"><WebIcon/></a>}
         </div>
-        <div style={{ textAlign: "center" }}>
+        <div className="lang-intgr">
           <p>
             {proj.lang.join(", ")}
             <br/>

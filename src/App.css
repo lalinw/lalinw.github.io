@@ -37,6 +37,10 @@
   }
 }
 
+#projects {
+	text-align: center;
+}
+
 a.icon {
   padding: 5px;
 }
@@ -44,19 +48,24 @@ a.icon {
 span.links {
   padding: 0px 10px;
 }
-
+                                     
 div.project-item {
-  width: 350px;
+  max-width: 400px;
+  width: 100%;
   display: inline-block; 
-  margin: 2em;
+  margin: 3em 2em;
   vertical-align: top;
   text-align: justify;
   
 }
 
 img.project-img {
-  width: inherit;
+  width: 100%;
   object-fit: contain;
   overflow: hidden;
   padding-bottom: 1em;
+}
+
+.project-name, .links, .lang-intgr {
+	text-align: center;
 }
