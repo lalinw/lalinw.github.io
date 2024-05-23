@@ -3,9 +3,9 @@
 body {
 	background-color: #64B5F6;
 
-	animation: colorchange 30s infinite alternate; /* animation-name followed by duration in seconds*/
+	animation: colorchange 25s infinite alternate; /* animation-name followed by duration in seconds*/
  		/* you could also use milliseconds (ms) or something like 2.5s */
-    -webkit-animation: colorchange 30s infinite alternate; /* Chrome and Safari */
+    -webkit-animation: colorchange 25s infinite alternate; /* Chrome and Safari */
 }
 
 @keyframes colorchange {
@@ -34,6 +34,7 @@ body {
 	width: 50%;
 	height: auto;
 	border-radius: 50px 50px 0px 0px;
+	border: lightgrey solid 2px;
 }
 
 .bg-block {
@@ -47,4 +48,36 @@ body {
 
 .section {
 	padding: 4em;
+}
+
+/* tooltip */
+.tooltip {
+	/* position: relative; */
+  display: inline-block;
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover {
+  visibility: visible;
+  opacity: 1;
 }
