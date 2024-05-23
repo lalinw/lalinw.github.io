@@ -2,19 +2,39 @@
   "Projects" : [
     {
       "id": 1,
-      "title": "Watch Party Rescue",
+      "title": "Wide-Field Ethnography Navigator",
       "img": null,
       "lang": [
-        "ReactJS", 
+        "TypeScript", 
+        "Node",
         "HTML/CSS"
       ],
       "integr": [
-        "Firebase",
-        "Jikan API"
+        "React",
+        "Electron",
+        "D3",
+        "SQLite"
       ],
-      "github": "https://github.com/lalinw/WatchPartyRescue",
-      "website": "https://lalinw.github.io/WatchPartyRescue",
-      "descr": "An answer to the dreaded 'what-should-we-watch?!' when planning for a movie night. Watch Party Rescue is here to (hopefully!) rescue your watch party :)."
+      "github": "https://github.com/citwild/wfe-navigator",
+      "document": "/assets/Paper_WFENav.pdf",
+      "descr": "WFE Navigator is a cross-platform application for navigating large, multi-modal, multi-stream datasets. This application is developed to support Associate Prof. David Socha's ethnography research efforts on the BeamCoffer dataset."
+    },
+    {
+      "id": 5,
+      "title": "Dynamic Volume (IoT)",
+      "img": "/assets/dynamic-volume-iot.png",
+      "lang": [
+        "Java", 
+        "Python"
+      ],
+      "integr": [
+        "AWS IoT",
+        "AWS Cognito",
+        "AWS S3"
+      ],
+      "github": "https://github.com/lalinw/dynamic-volume-iot",
+      "document": "/assets/Paper_DynamicVolume.pdf",
+      "descr": "An Android application that adjusts the speaker volume based on how far away the user is from the audio source, measured using Round-Trip Time (802.11mc) on Fine Time Measurement enabled mobile devices."
     },
     {
       "id": 2,
@@ -41,7 +61,6 @@
       ],
       "integr": null,
       "github": "https://github.com/DaviidK/mercy-detector",
-      "website": null,
       "descr": "An OpenCV project that explored and utilizes various computer vision classification approaches to process gameplay images and detect player's avatar and action."
     },
     {
@@ -58,24 +77,7 @@
       ],
       "github": "https://github.com/lalinw/betterlabel",
       "website": "https://lalinw.github.io/betterlabel/",
-      "descr": "A simple web-based tool to tag, compare, and find common ingredients from product labels with helpful visual cues. The web application operates on client-side only."
-    },
-    {
-      "id": 5,
-      "title": "Dynamic Volume (IoT)",
-      "img": "/assets/dynamic-volume-iot.png",
-      "lang": [
-        "Java", 
-        "Python"
-      ],
-      "integr": [
-        "AWS IoT",
-        "AWS Cognito",
-        "AWS S3"
-      ],
-      "github": "https://github.com/lalinw/dynamic-volume-iot",
-      "website": null,
-      "descr": "An Android application that adjusts volume of the target volume output device (i.e. speaker) based on Round-Trip Time (802.11mc) on Fine Time Measurement enabled mobile devices."
+      "descr": "A web-based tool to tag, compare, and find common ingredients from product labels with helpful visual cues. The web application operates on client-side only."
     }
   ]
 }

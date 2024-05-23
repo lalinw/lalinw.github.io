@@ -4,7 +4,9 @@ import placeholderImage from './catlogo.PNG'
 
 // Icons
 import GitHubIcon from '@mui/icons-material/GitHub';
-import WebIcon from '@mui/icons-material/Web';
+import WebIcon from '@mui/icons-material/OpenInBrowser';
+import DescriptionIcon from '@mui/icons-material/Description';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 class App extends Component {
@@ -31,8 +33,10 @@ class App extends Component {
           {proj.title} 
         </h4>
         <div className="links">
-          {proj.github !== null && <a href={proj.github} className="icon"><GitHubIcon/></a>}
-          {proj.website !== null && <a href={proj.website} className="icon"><WebIcon/></a>}
+          {proj.hasOwnProperty('github') && <a href={proj.github} className="icon"><GitHubIcon fontSize="large"/></a>}
+          {proj.hasOwnProperty('website') && <a href={proj.website} className="icon"><WebIcon fontSize="large"/></a>}
+          {proj.hasOwnProperty('document') && <a href={proj.document} className="icon"><DescriptionIcon fontSize="large"/></a>}
+          {proj.hasOwnProperty('youtube') && <a href={proj.youtube} className="icon"><YouTubeIcon fontSize="large"/></a>}
         </div>
         <div className="lang-intgr">
           <p>
